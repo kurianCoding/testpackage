@@ -1,0 +1,33 @@
+{
+  "name": "@kurian2020/hello",
+  "version": "1.1.0",
+  "description": "package to see how node module is made",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js",
+    "build": "webpack",
+    "run": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurianCoding/testpackage.git"
+  },
+  "keywords": [
+    "na"
+  ],
+  "author": "kurian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurianCoding/testpackage/issues"
+  },
+  "homepage": "https://github.com/kurianCoding/testpackage#readme",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "@types/lodash": "^4.14.157",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
